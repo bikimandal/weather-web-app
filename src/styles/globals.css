@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.sacramento-regular {
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secular-one-regular {
+  font-family: "Secular One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
