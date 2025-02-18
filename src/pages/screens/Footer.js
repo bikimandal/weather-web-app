@@ -11,6 +11,7 @@ export default function Footer() {
       </div>
       <a
         href="https://bikimandalportfolio.netlify.app/"
+        target="_blank"
         className="text-xl sacramento-regular text-red-200"
       >
         Biki Mandal
