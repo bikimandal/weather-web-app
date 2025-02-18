@@ -16,10 +16,13 @@ export async function getWeatherDetails(city) {
 
     const data = await response.json();
 
+    // Convert temperature from Kelvin to Celsius
+    const temperatureInCelsius = (data.main.temp - 273.15).toFixed(2);
+
     // Return only necessary details
     return {
       city: data.name,
-      temperature: data.main.temp,
+      temperature: temperatureInCelsius,
       weather: data.weather[0].description,
       humidity: data.main.humidity,
       windSpeed: data.wind.speed,
