@@ -9,7 +9,10 @@ export default function Footer() {
       <div className="mb-2">
         🌍 Weather App - All Rights Reserved | &copy; {currentYear}
       </div>
-      <a href="" className="text-xl sacramento-regular">
+      <a
+        href="https://bikimandalportfolio.netlify.app/"
+        className="text-xl sacramento-regular text-red-200"
+      >
         Biki Mandal
       </a>
     </div>
